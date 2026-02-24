@@ -1,0 +1,374 @@
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: url(fonts\young-serif\YoungSerif-Regular.ttf);
+
+    font-family: Outfit-Black;
+    src: url(fonts\outfit\static\Outfit-Black.ttf);
+
+    font-family: Outfit-Bold;
+    src: url(fonts\outfit\static\Outfit-Bold.ttf);
+
+    font-family: Outfit-ExtraLight;
+    src: url(fonts\outfit\static\Outfit-ExtraLight.ttf);
+
+    font-family: Outfit-Light;
+    src: url(fonts\outfit\static\Outfit-Light.ttf);
+
+    font-family: Outfit-Medium;
+    src: url(fonts\outfit\static\Outfit-Medium.ttf);
+
+    font-family: Outfit-Regular;
+    src: url(fonts\outfit\static\Outfit-Regular.ttf);
+
+    font-family: Outfit-SemiBold;
+    src: url(fonts\outfit\static\Outfit-SemiBold.ttf);
+
+    font-family: Outfit-Thin;
+    src: url(fonts\outfit\static\Outfit-Thin.ttf);
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 375px;
+    min-width: 320px;
+    font-size: 16px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.nav1 {
+    img {
+        width: 100%;
+    }
+
+    margin-bottom: 10px;
+}
+
+.main {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        color: hsl(24, 5%, 18%);
+        margin-bottom: 20px;
+        font-family: Outfit-Bold;
+        font-weight: 700;
+    }
+
+    p {
+        color: hsl(30, 10%, 34%);
+        text-align: left;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        font-family: Outfit-Regular;
+        font-weight: 400;
+    }
+
+}
+
+.submain1 {
+    background-color: hsl(330, 100%, 98%);
+    margin: 0px 25px 20px 25px;
+    padding: 15px 20px 15px 20px;
+
+    h3 {
+        color: hsl(332, 51%, 32%);
+        margin-bottom: 15px;
+        font-family: Outfit-SemiBold;
+        font-weight: 600;
+    }
+
+    .bold,
+    .bold1,
+    .bold2,
+    .bold3,
+    .bold4 {
+        font-family: Outfit-Bold;
+        font-weight: 700;
+        color: hsl(24, 5%, 18%);
+    }
+
+    ul {
+
+        padding-left: 30px;
+
+        li {
+            margin-bottom: 10px;
+            color: hsl(30, 10%, 34%);
+        }
+    }
+}
+
+.submain2 {
+    padding: 10px 30px 20px 20px;
+
+    h2 {
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 15px;
+        font-family: Outfit-Bold;
+        font-weight: 700;
+
+    }
+
+    ul {
+        margin-left: 20px;
+        font-family: Outfit-Regular;
+        font-weight: 400;
+
+        li {
+            margin-bottom: 10px;
+            color: hsl(30, 10%, 34%);
+        }
+
+    }
+}
+
+.submain3 {
+    padding: 20px 30px 20px 20px;
+
+    .bold3,
+    .bold4,
+    .bold5,
+    .bold6,
+    .bold7,
+    .bold8 {
+        font-family: Outfit-Black;
+        font-weight: 700;
+        color: hsl(24, 5%, 18%)00;
+    }
+
+    h2 {
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 20px;
+        font-family: Outfit-Bold;
+        font-weight: 700;
+
+    }
+
+    ol {
+        margin-left: 20px;
+
+        li {
+            margin-bottom: 10px;
+            color: hsl(30, 10%, 34%);
+        }
+    }
+}
+
+.submain4 {
+    padding: 20px 30px 20px 20px;
+
+    h2 {
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 20px;
+        font-family: Outfit-Bold;
+        font-weight: 700;
+
+    }
+
+    p {
+        color: hsl(30, 10%, 34%);
+    }
+}
+
+.container {
+    div {
+        display: flex;
+        padding: 10px 100px 10px 50px;
+        justify-content: space-between;
+        color: hsl(30, 10%, 34%);
+
+        .ch1 {
+            color: hsl(14, 45%, 36%);
+            font-family: Outfit-Bold;
+            font-weight: 700;
+
+        }
+    }
+
+}
+
+@media (min-width:1200px) {
+    body {
+        font-size: 16px;
+        max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(30, 18%, 87%);
+
+    }
+
+    main {
+        background-color: hsl(0, 0%, 100%);
+        margin: 70px 380px 70px 380px;
+        padding: 20px;
+    }
+
+    nav {
+        img {
+            width: 100%;
+        }
+
+        margin-bottom: 10px;
+    }
+
+    .main {
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            color: hsl(24, 5%, 18%);
+            margin-bottom: 20px;
+            font-family: Outfit-Bold;
+            font-weight: 700;
+        }
+
+        p {
+            color: hsl(30, 10%, 34%);
+            text-align: left;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            font-family: Outfit-Regular;
+            font-weight: 400;
+        }
+
+    }
+
+    .submain1 {
+        background-color: hsl(330, 100%, 98%);
+        margin: 0px 25px 20px 25px;
+        padding: 15px 20px 15px 20px;
+
+        h3 {
+            color: hsl(332, 51%, 32%);
+            margin-bottom: 15px;
+            font-family: Outfit-SemiBold;
+            font-weight: 600;
+        }
+
+        .bold,
+        .bold1,
+        .bold2,
+        .bold3,
+        .bold4 {
+            font-family: Outfit-Bold;
+            font-weight: 700;
+            color: hsl(24, 5%, 18%);
+        }
+
+        ul {
+
+            padding-left: 30px;
+
+            li {
+                margin-bottom: 10px;
+                color: hsl(30, 10%, 34%);
+            }
+        }
+    }
+
+    .submain2 {
+        padding: 10px 30px 20px 20px;
+
+        h2 {
+            color: hsl(14, 45%, 36%);
+            margin-bottom: 15px;
+            font-family: Outfit-Bold;
+            font-weight: 700;
+
+        }
+
+        ul {
+            margin-left: 20px;
+            font-family: Outfit-Regular;
+            font-weight: 400;
+
+            li {
+                margin-bottom: 10px;
+                color: hsl(30, 10%, 34%);
+            }
+
+        }
+    }
+
+    .submain3 {
+        padding: 20px 30px 20px 20px;
+
+        .bold3,
+        .bold4,
+        .bold5,
+        .bold6,
+        .bold7,
+        .bold8 {
+            font-family: Outfit-Black;
+            font-weight: 700;
+            color: hsl(24, 5%, 18%)00;
+        }
+
+        h2 {
+            color: hsl(14, 45%, 36%);
+            margin-bottom: 20px;
+            font-family: Outfit-Bold;
+            font-weight: 700;
+
+        }
+
+        ol {
+            margin-left: 20px;
+
+            li {
+                margin-bottom: 10px;
+                color: hsl(30, 10%, 34%);
+            }
+        }
+    }
+
+    .submain4 {
+        padding: 20px 30px 20px 20px;
+
+        h2 {
+            color: hsl(14, 45%, 36%);
+            margin-bottom: 20px;
+            font-family: Outfit-Bold;
+            font-weight: 700;
+
+        }
+
+        p {
+            color: hsl(30, 10%, 34%);
+        }
+    }
+
+    .container {
+        div {
+            display: flex;
+            padding: 10px 250px 10px 50px;
+            justify-content: space-between;
+            color: hsl(30, 10%, 34%);
+
+            .ch1 {
+                color: hsl(14, 45%, 36%);
+                font-family: Outfit-Bold;
+                font-weight: 700;
+
+            }
+        }
+
+    }
+
+}
